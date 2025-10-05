@@ -4,25 +4,24 @@
  */
 
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
-import { 
-  Brain, 
-  Clock, 
-  Shield, 
-  Users, 
-  BarChart3, 
-  FileText, 
-  Heart,
-  Zap,
-  CheckCircle,
-  Star,
-  ArrowRight,
-  BookOpen,
-  Target,
-  History
+import {Link} from 'react-router-dom';
+import {Card, CardContent, CardHeader, CardTitle} from '@/components/ui/card';
+import {Button} from '@/components/ui/button';
+import {Badge} from '@/components/ui/badge';
+import {
+    ArrowRight,
+    BarChart3,
+    BookOpen,
+    Brain,
+    CheckCircle,
+    Clock,
+    FileText,
+    Heart,
+    History,
+    Shield,
+    Target,
+    Users,
+    Zap
 } from 'lucide-react';
 
 export default function Home() {
@@ -423,7 +422,7 @@ export default function Home() {
             </div>
             
             <div className="border-t border-muted mt-8 pt-8 text-center text-sm text-muted-foreground">
-              <p>© 2024 性压抑指数计算器. 仅供教育和自我了解使用，不能替代专业心理健康服务。</p>
+              <p>© 2025 性压抑指数计算器. 仅供教育和自我了解使用，不能替代专业心理健康服务。</p>
             </div>
           </div>
         </footer>
